@@ -1,0 +1,6 @@
+Redes Malladas (Mesh Networks)
+
+- Introducción motivacional (explicación un tanto personal del "por que" me parece tan interesante que se conozca del tema).
+- Arquitectura y topologías.
+- Cuestiones importantes e implementaciones de seguridad.
+- Ejemplos de algunas redes Mesh existentes.
