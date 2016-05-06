@@ -8,7 +8,7 @@ puts "Give me a key, so I can do my magic :D"
 puts "Key: "
 key = Digest::SHA256.digest gets.chomp
 
-cipher = OpenSSL::Cipher::AES.new(128, :CBC)
+cipher = OpenSSL::Cipher::AES.new(256, :CBC)
 cipher.encrypt
 cipher.key = key
 
